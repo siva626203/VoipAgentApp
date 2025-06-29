@@ -1,5 +1,5 @@
 import { getServerSession } from "next-auth";
-import { authOptions } from "@/app/api/auth/[...nextauth]/route";
+import { authOptions } from "@/lib/authOptions";
 import ClientList from "@/components/ClientList";
 import DialPad from "@/components/Dialpad";
 import CallHistory from "@/components/CallHistory";
